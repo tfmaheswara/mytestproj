@@ -1,3 +1,4 @@
+/*
 terraform {
   required_version = ">= 0.12.0"
 
@@ -6,14 +7,13 @@ terraform {
     random = ">= 3.0"
   }
 }
-
-
 provider "aws" {
   # Configuration options
     region = "us-east-1"
     access_key = "AKIAU6GDWEBIARJUZE3E"
     secret_key = "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" 
 }
+*/
 /*
 data "aws_ami" "app_ami" {
   most_recent = true
